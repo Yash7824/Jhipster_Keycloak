@@ -1,0 +1,20 @@
+{
+  "changelogDate": "20220630203230",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Tenant",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "userk",
+      "otherEntityRelationshipName": "tenant",
+      "relationshipName": "userk",
+      "relationshipType": "one-to-many"
+    }
+  ]
+}
